@@ -28,8 +28,10 @@ For Windows
 Need for PyInstaller
 
 For Linux
+`pip install pyinstaller`
 `pyinstaller --onefile --hidden-import "PIL._tkinter_finder" --hidden-import "PIL.imagingtk" main_1.py`
 
 For Windows
+`python -m pip install PyInstaller`
 `python -m PyInstaller --onefile --hidden-import "PIL._tkinter_finder" --hidden-import "PIL.imagingtk" main_1.py`
 
