@@ -35,3 +35,4 @@ Need for PyInstaller
 - `python -m pip install PyInstaller`
 - `python -m PyInstaller --onefile --hidden-import "PIL._tkinter_finder" --hidden-import "PIL.imagingtk" main_1.py`
 
+~forqua
