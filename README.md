@@ -16,22 +16,22 @@ If you have better ideas for this project you can communicate with me.
 - time
 - datetime
 
-For Linux
-`pip install xlrd Pillow sqlite3 time datetime`
+### For Linux
+- `pip install xlrd Pillow sqlite3 time datetime`
 
-For Windows
-`python -m pip install xlrd Pillow sqlite3 time datetime`
+### For Windows
+- `python -m pip install xlrd Pillow sqlite3 time datetime`
 
 
 ## Convert to Executable File
 
 Need for PyInstaller
 
-For Linux
-`pip install pyinstaller`
-`pyinstaller --onefile --hidden-import "PIL._tkinter_finder" --hidden-import "PIL.imagingtk" main_1.py`
+### For Linux
+- `pip install pyinstaller`
+- `pyinstaller --onefile --hidden-import "PIL._tkinter_finder" --hidden-import "PIL.imagingtk" main_1.py`
 
-For Windows
-`python -m pip install PyInstaller`
-`python -m PyInstaller --onefile --hidden-import "PIL._tkinter_finder" --hidden-import "PIL.imagingtk" main_1.py`
+### For Windows
+- `python -m pip install PyInstaller`
+- `python -m PyInstaller --onefile --hidden-import "PIL._tkinter_finder" --hidden-import "PIL.imagingtk" main_1.py`
 
